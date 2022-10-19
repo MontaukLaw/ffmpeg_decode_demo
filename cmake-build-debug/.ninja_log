@@ -1,0 +1,8 @@
+# ninja log v5
+0	10	1666188724288832634	build.ninja	57c1995f9db9351b
+0	139	1666188719512870857	CMakeFiles/ffmpeg_decode_demo.dir/main.cpp.o	a658ba7dbd8cb528
+280	310	1666188719680869510	ffmpeg_decode_demo	bd09ecb947a25dd2
+140	280	1666188719652869735	CMakeFiles/ffmpeg_decode_demo.dir/demo/another_file.cpp.o	c7d15eaf6267b3a2
+0	16	1666188724288832634	build.ninja	57c1995f9db9351b
+0	140	1666188768444479256	CMakeFiles/ffmpeg_decode_demo.dir/main.cpp.o	a658ba7dbd8cb528
+140	174	1666188768476479002	ffmpeg_decode_demo	bd09ecb947a25dd2
