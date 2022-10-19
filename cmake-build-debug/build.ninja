@@ -52,14 +52,14 @@ build cmake_object_order_depends_target_ffmpeg_decode_demo: phony || CMakeFiles/
 build CMakeFiles/ffmpeg_decode_demo.dir/main.cpp.o: CXX_COMPILER__ffmpeg_decode_demo_Debug /home/marc/CLionProjects/ffmpeg_decode_demo/main.cpp || cmake_object_order_depends_target_ffmpeg_decode_demo
   DEP_FILE = CMakeFiles/ffmpeg_decode_demo.dir/main.cpp.o.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -I/home/marc/CLionProjects/ffmpeg_decode_demo/include
+  INCLUDES = -I/home/marc/CLionProjects/ffmpeg_decode_demo/include -I/home/marc/CLionProjects/ffmpeg_decode_demo/dep/ffmpeg/include
   OBJECT_DIR = CMakeFiles/ffmpeg_decode_demo.dir
   OBJECT_FILE_DIR = CMakeFiles/ffmpeg_decode_demo.dir
 
 build CMakeFiles/ffmpeg_decode_demo.dir/demo/another_file.cpp.o: CXX_COMPILER__ffmpeg_decode_demo_Debug /home/marc/CLionProjects/ffmpeg_decode_demo/demo/another_file.cpp || cmake_object_order_depends_target_ffmpeg_decode_demo
   DEP_FILE = CMakeFiles/ffmpeg_decode_demo.dir/demo/another_file.cpp.o.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -I/home/marc/CLionProjects/ffmpeg_decode_demo/include
+  INCLUDES = -I/home/marc/CLionProjects/ffmpeg_decode_demo/include -I/home/marc/CLionProjects/ffmpeg_decode_demo/dep/ffmpeg/include
   OBJECT_DIR = CMakeFiles/ffmpeg_decode_demo.dir
   OBJECT_FILE_DIR = CMakeFiles/ffmpeg_decode_demo.dir/demo
 
@@ -73,6 +73,7 @@ build CMakeFiles/ffmpeg_decode_demo.dir/demo/another_file.cpp.o: CXX_COMPILER__f
 
 build ffmpeg_decode_demo: CXX_EXECUTABLE_LINKER__ffmpeg_decode_demo_Debug CMakeFiles/ffmpeg_decode_demo.dir/main.cpp.o CMakeFiles/ffmpeg_decode_demo.dir/demo/another_file.cpp.o
   FLAGS = -g
+  LINK_PATH = -L/home/marc/CLionProjects/ffmpeg_decode_demo/dep/ffmpeg/libs
   OBJECT_DIR = CMakeFiles/ffmpeg_decode_demo.dir
   POST_BUILD = :
   PRE_LINK = :
